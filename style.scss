@@ -29,6 +29,12 @@ body {
 
 }
 
+#map {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
 .top {
     height: 260px;
     h1 {
@@ -94,6 +100,7 @@ body {
 
 .bottom {
     height: 140px;
+    border-bottom: 1px solid white;
     .headings,
     .weather-info {
         display: flex;
@@ -113,6 +120,7 @@ body {
     .weather-info {
         height: 65%;
         font-size: 26px;
+        
     }
 }
 
@@ -149,6 +157,7 @@ body {
         display: flex;
         border-top: 1px solid $main-white;
         padding-top: 10px;
+        padding-bottom: 110px;
         .headings,
         .weather-info {
             flex-direction: column;
